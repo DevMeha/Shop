@@ -16,12 +16,10 @@ header {
 .price {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 0px;
-  float: left;
 }
 .Product-description {
   font-weight: bold;
-  clear: both;
+
   margin-bottom: 10px;
 }
 .link {
@@ -60,10 +58,8 @@ ul {
 }
 .shipping {
   text-transform: uppercase;
-  font-size: 10px;
-  color: gray;
-  float: right;
-  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
 }
 .product {
   width: 825px;
@@ -106,8 +102,6 @@ h1 {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
 }
 .color-blue {
   background-color: blueviolet;
@@ -125,15 +119,24 @@ h1 {
   background-color: rgb(87, 35, 15);
 }
 .product-info {
-  float: left;
-  width: 243px;
-  margin-left: 40px;
   padding-top: 2px;
+  flex: 1;
 }
 .product-info2 {
-  float: right;
-  width: 243px;
+  flex: 1;
 }
 .img {
-  float: left;
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.porduct-colors {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  display: flex;
+  gap: 40px;
 }
